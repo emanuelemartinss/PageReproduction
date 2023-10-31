@@ -26,13 +26,44 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 .content-text{
-    font-size: 100px;
-    border: 1px solid black;
+    position: relative;
+    align-items: center; 
+}
+.title {
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    padding: 16px;
+}
+.id { 
+    border-radius: 2px;
+    text-decoration: underline;
+    border-color: black;
+    padding: 3px;
+}
+.wire {
+    position: relative;
+    content: '';
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+    box-shadow: 12px 12px 1px #d3d1d1;
 }
 
+.after{
+    content: '';
+}
+.subtitle {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
 .content-image{
     font-size: 100px;
     border: 1px solid black;    
