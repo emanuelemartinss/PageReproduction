@@ -20,17 +20,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 6rem 3rem 6rem;
+    padding: 4rem 6rem 1rem 6rem;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    border: 0px solid black;
+
 }
 .content-text{
     position: relative;
-    align-items: center; 
+    text-align: center; 
 }
 .title {
     font-size: 45px;
@@ -64,16 +64,23 @@ body{
     display: flex;
     justify-content:center;
 }
-.content-image{
-    font-size: 100px;
-    border: 1px solid black;    
+
+.content-image {
+  display: flex;
+  justify-content: center;
+}
+.content-image img{
+    width: 85%;
+
+
 }
 
 .footer{
     width: 100%;
-    margin-top: 8rem;
-    border: 1px solid black;
+    margin-top: 3rem;
+    border-top: 1px solid black;
     font-size: 50px;
+    
 
 }
 .footer-nav{
@@ -96,11 +103,11 @@ a:hover{
 .footer-logo{
     position: absolute;
     left: 8rem;
-    top: 31rem;
+    bottom: -1rem;
     
 }
 .wireframes-logo{
     position: absolute;
     right: 8rem;
-    top: 34rem;
+    bottom: -1rem;
 }
