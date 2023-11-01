@@ -45,4 +45,31 @@ body{
     font-size: 50px;
 
 }
-
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 25px 25px 32px 25px;
+    
+}
+.footer-nav-link{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0.5px 1px;
+    
+}
+a:hover{
+    color: blue;
+}
+.footer-logo{
+    position: absolute;
+    left: 8rem;
+    top: 31rem;
+    
+}
+.wireframes-logo{
+    position: absolute;
+    right: 8rem;
+    top: 34rem;
+}
