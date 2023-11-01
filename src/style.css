@@ -77,9 +77,11 @@ body{
 
 .footer{
     width: 100%;
-    margin-top: 3rem;
+    height: 4rem;
+    margin-top: 2rem;
     border-top: 1px solid black;
-    font-size: 50px;
+    position: relative;
+
     
 
 }
@@ -103,11 +105,11 @@ a:hover{
 .footer-logo{
     position: absolute;
     left: 8rem;
-    bottom: -1rem;
+    bottom: 0rem;
     
 }
 .wireframes-logo{
     position: absolute;
-    right: 8rem;
-    bottom: -1rem;
+    right: 4rem;
+    bottom: 1rem;
 }
